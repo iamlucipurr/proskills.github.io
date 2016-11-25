@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	color: white;
+}
+/* background image */
+
+.backgimg {
+	background-image: url("backgroundimg.jpg");
+	background-attachment: fixed;
+	background-position:top left;
+	background-size: cover;
+}
+	/* main div container */
+
+div {
+	width: 1000px;
+	height: auto;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	padding: .5em;
+	border: solid thin white;
+	
+}
+/* nav classes below */
+
+div nav li {
+	list-style-type: none;
+	display: inline;
+	border: solid thin white;
+	padding: .5em;
+	background-color: rgb(57, 55, 55);
+	background-color: rgba(57,55,55,0.81);
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+div nav li a {
+	color: white;
+	text-decoration: none;
+	
+}
+
+div nav li:hover {
+	background-color: rgb(237, 14, 14);
+	background-color: rgba(237,14,14,0.85);
+	
+	
+}
+
+div nav li span {
+	color: plum;
+}
+
+/* header styling */
+header img {
+	width: 100px;
+}
+
+h1 {
+	float: right;
+	color: white;
+	margin-top: .5em;
+	margin-bottom: .25em;
+	width: 900px;
+	text-align: center;
+	font-size: 300%;
+	background-color: rgb(57, 55, 55);
+	background-color: rgba(57,55,55,0.81);
+	
+}
+
+/* content styling */
+
+section h3 {
+	text-align: center;
+	background-color: rgb(57, 55, 55);
+	background-color: rgba(57,55,55,0.81);
+	margin-bottom: .35em;
+	padding: .5em;
+	
+	
+}
+section {
+	background-color: rgb(57, 55, 55);
+	background-color: rgba(57,55,55,0.81);
+	padding: .2em;
+	text-align: center;
+	
+}
+
+section ul li {
+	display: inline;
+	text-decoration: square;
+margin-right: 3em;
+	margin-left: 3em;
+	line-height: 2em;
+}
+
+section aside {
+	float: right;
+	width: 300px;
+	text-align: center;
+	background-color: rgb(57, 55, 55);
+	background-color: rgba(57,55,55,0.81);
+	padding: .5em;
+	clear: right;
+	margin-bottom: .5em;
+}
+
+section a:hover {
+	background-color: rgba(255,255,255,1.00);
+	color: rgba(237,52,55,1.00);
+	
+}
+section p a{
+	
+}
+.sectpara {
+	line-height: 2em;
+	text-align: center;
+	margin: 1em;
+	
+}
+
+.parajust {
+	font-size: 120%;
+}
+section aside ol li {
+	margin-bottom: .25em;
+}
+
+blockquote {
+	background-color: rgb(57, 55, 55);
+	background-color: rgba(57,55,55,0.81);
+	padding: 1em;
+	width: 645px;
+}
+
+.ulfix {
+	list-style-type: circle;
+	display: block;
+}
+
+/* footer styles */
+
+footer {
+	display: block;
+	background-color: rgb(57, 55, 55);
+	background-color: rgba(57,55,55,0.81);
+}
+
+.spanthis {
+list-style-type: circle black;
+	
+	display: block;
+
+}
+
+
+	
